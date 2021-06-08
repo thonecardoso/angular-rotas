@@ -1,3 +1,5 @@
+<h1>Lista de Cursos</h1>
+<p>Página: {{pagina}}</p>
 <div class="list-group">
   <a href="#" class="list-group-item list-group-item-action active">
     Cursos
@@ -6,3 +8,5 @@
   [routerLink]="['/curso', curso.id]"
   >{{curso.nome}}</a>
 </div>
+<button class="btn btn-info" [disabled]="pagina == 1" (click)="previousPag()">Página Anterior</button>
+<button class="btn btn-info" (click)="nextPagina()">Proxima Página</button>
