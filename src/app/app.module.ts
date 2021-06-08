@@ -7,7 +7,7 @@ import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import {CursosModule} from './cursos/cursos.module';
-import {CursosRoutingModule} from './cursos/cursos-routing.module';
+import {AlunosModule} from './alunos/alunos.module';
 
 @NgModule({
   declarations: [
@@ -19,6 +19,7 @@ import {CursosRoutingModule} from './cursos/cursos-routing.module';
     BrowserModule,
     NgbModule,
     CursosModule,
+    AlunosModule,
     AppRoutingModule
   ],
   providers: [],
