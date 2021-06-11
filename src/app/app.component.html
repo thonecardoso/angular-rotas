@@ -10,9 +10,9 @@
       <li routerLinkActive="active" class="nav-item">
         <a class="nav-link" routerLink="/cursos" [queryParams]="{pagina:1}">Cursos</a>
       </li>
-      <li routerLinkActive="active" class="nav-item">
-        <a class="nav-link" [routerLink]="['curso', idCurso.value]" >Curso com Id</a>
-      </li>
+<!--      <li routerLinkActive="active" class="nav-item">-->
+<!--        <a class="nav-link" [routerLink]="['curso', idCurso.value]" >Curso com Id</a>-->
+<!--      </li>-->
       <li routerLinkActive="active" class="nav-item">
         <a class="nav-link" [routerLink]="['alunos']">Alunos</a>
       </li>
@@ -28,9 +28,9 @@
 </nav>
 
 <div class="container">
-  <p>Entre com o id do curso</p>
-  <input #idCurso >
-  <br>
-  <br>
+<!--  <p>Entre com o id do curso</p>-->
+<!--  <input #idCurso >-->
+<!--  <br>-->
+<!--  <br>-->
   <router-outlet></router-outlet>
 </div>
